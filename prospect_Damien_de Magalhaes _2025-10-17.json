@@ -1,0 +1,41 @@
+{
+  "id": "IPUzPAVSLtTk9ENevGBF",
+  "informationsPersonnelles": {
+    "nom": "de Magalhaes ",
+    "prenom": "Damien",
+    "email": "",
+    "telephone": "",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1760621847,
+      "nanoseconds": 835000000
+    },
+    "rgpd": false,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "DDM Peinture",
+    "metier": "Peinture, anduit, papier peins, parquet",
+    "secteurActivite": "51, 10, 02, 08",
+    "raisonSociale": "Micro-entreprise",
+    "anneeCreation": "2024",
+    "nombreCollaborateurs": "1",
+    "prestation": "",
+    "rayonIntervention": "",
+    "certifications": "",
+    "garanties": "Rc Pro",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-10-17T07:25:44.354Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

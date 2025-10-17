@@ -45,11 +45,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\nÎle-de-France",
+    address: "Zone d'intervention :\nMarne (51), Aube (10), Aisne (02), Ardennes (08)",
     phone: "06 99 37 42 63",
-    email: "contact@mbtp.fr",
-    hours: "Lundi - Vendredi: 7h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Ile-de-France,France&t=&z=9&ie=UTF8&iwloc=&output=embed"
+    email: "contact@ddmpeinture.fr",
+    hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 9h00 - 12h00",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Reims,France&t=&z=9&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -70,7 +70,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de maçonnerie ou de pose de menuiserie ? Notre équipe est là pour vous accompagner en Bretagne et Normandie.
+              Un projet de peinture, enduit, papier peint ou parquet ? Notre artisan peintre est là pour vous accompagner dans la Marne, l'Aube, l'Aisne et les Ardennes.
             </p>
           </motion.div>
         </div>

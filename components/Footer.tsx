@@ -43,11 +43,11 @@ export default function Footer() {
                   />
                 </motion.div>
                 <span className="text-xl font-bold">
-                  MBTP
+                  DDM Peinture
                 </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                MBTP SARL - Spécialiste en maçonnerie et gros œuvre depuis 2016. Intervention en Île-de-France.
+                DDM Peinture - Artisan peintre spécialisé en peinture, enduit, papier peint et parquet depuis 2024. Intervention dans la Marne, l'Aube, l'Aisne et les Ardennes.
               </p>
               <a 
                 href="tel:0699374263" 
@@ -117,7 +117,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} MBTP SARL. Tous droits réservés.
+              © {currentYear} DDM Peinture. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

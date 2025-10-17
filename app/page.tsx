@@ -21,30 +21,37 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Maçonnerie & Gros Œuvre",
-      subtitle: "Fondations & Structures",
-      content: "Fondations, élévation de murs, dalles, chapes, structures. MBTP SARL réalise tous vos travaux de gros œuvre avec une équipe expérimentée depuis 2016.",
+      title: "Peinture Intérieure & Extérieure",
+      subtitle: "Finitions soignées",
+      content: "Peinture de murs, plafonds, boiseries, façades. DDM Peinture réalise tous vos travaux de peinture avec un savoir-faire artisanal et des finitions parfaites depuis 2024.",
       image: "/macon.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
     {
-      title: "Rénovation & Extension",
-      subtitle: "Transformation d'espaces",
-      content: "Réfection de façades, reprise de maçonnerie, extensions, aménagements. Notre équipe de 6 à 10 collaborateurs vous accompagne dans tous vos projets.",
+      title: "Enduit & Papier Peint",
+      subtitle: "Décoration murale",
+      content: "Enduits décoratifs, crépis, pose de papier peint. Notre expertise artisanale garantit des résultats durables et esthétiques pour tous vos projets de décoration.",
       image: "/menuiserie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
+    },
+    {
+      title: "Parquet & Revêtements",
+      subtitle: "Sols & finitions",
+      content: "Pose et rénovation de parquet, revêtements de sols et murs. Service personnalisé d'artisan pour des finitions impeccables dans toute la région.",
+      gradientFrom: "#4facfe",
+      gradientTo: "#00f2fe"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Zone d'intervention :\nÎle-de-France",
+    address: "Zone d'intervention :\nMarne (51), Aube (10), Aisne (02), Ardennes (08)",
     phone: "06 99 37 42 63",
-    email: "contact@mbtp.fr",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Ile-de-France,France&t=&z=9&ie=UTF8&iwloc=&output=embed"
+    email: "contact@ddmpeinture.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Reims,France&t=&z=9&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -95,7 +102,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de maçonnerie ou pose de menuiserie en Bretagne et Normandie"
+        subtitle="Parlons de votre projet de peinture, enduit, papier peint ou parquet dans la Marne, l'Aube, l'Aisne et les Ardennes"
         contactInfo={contactInfo} 
       />
 

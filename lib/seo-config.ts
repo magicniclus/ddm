@@ -14,33 +14,33 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "MBTP - Maçonnerie & Gros Œuvre en Île-de-France depuis 2016",
-  description: "MBTP SARL, entreprise spécialisée en maçonnerie et gros œuvre depuis 2016. Équipe de 6 à 10 professionnels en Île-de-France. Devis gratuit pour vos projets de construction et rénovation.",
+  title: "DDM Peinture - Artisan Peintre Marne, Aube, Aisne, Ardennes depuis 2024",
+  description: "DDM Peinture, artisan peintre spécialisé en peinture, enduit, papier peint et parquet depuis 2024. Service personnalisé dans la Marne (51), Aube (10), Aisne (02), Ardennes (08). Devis gratuit.",
   keywords: [
-    "maçonnerie Île-de-France",
-    "gros œuvre Paris",
-    "maçon professionnel 75",
-    "construction Seine-et-Marne",
-    "rénovation Essonne",
-    "maçonnerie Val-de-Marne",
-    "gros œuvre Hauts-de-Seine",
-    "entreprise maçonnerie 77",
-    "maçon 78",
-    "construction 91",
-    "MBTP",
-    "travaux maçonnerie",
-    "devis gratuit",
-    "SARL maçonnerie",
-    "fondations",
-    "structures"
+    "peintre Marne 51",
+    "peinture Reims",
+    "artisan peintre Aube 10",
+    "peinture Troyes",
+    "enduit décoratif Aisne 02",
+    "papier peint Laon",
+    "parquet Ardennes 08",
+    "peinture Charleville-Mézières",
+    "DDM Peinture",
+    "peintre professionnel",
+    "devis gratuit peinture",
+    "micro-entreprise peinture",
+    "revêtements muraux",
+    "finitions peinture",
+    "décoration intérieure",
+    "peinture extérieure"
   ],
-  author: "MBTP",
-  siteUrl: "https://mbtp.fr",
-  siteName: "MBTP - Maçonnerie & Gros Œuvre",
+  author: "Damien de Magalhaes",
+  siteUrl: "https://ddmpeinture.fr",
+  siteName: "DDM Peinture - Artisan Peintre",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
-  twitterHandle: "@mbtp"
+  twitterHandle: "@ddmpeinture"
 };
 
 export function generateMetadata(
@@ -117,46 +117,58 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "MBTP",
-  "legalName": "MBTP SARL",
+  "name": "DDM Peinture",
+  "legalName": "DDM Peinture",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "MBTP"
+    "name": "Damien de Magalhaes"
   },
-  "foundingDate": "2016",
-  "numberOfEmployees": "6-10",
+  "foundingDate": "2024",
+  "numberOfEmployees": "1",
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "Île-de-France",
+    "addressRegion": "Marne, Aube, Aisne, Ardennes",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+33699374263",
     "contactType": "customer service",
-    "email": "contact@mbtp.fr",
+    "email": "contact@ddmpeinture.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Île-de-France"
+      "name": "Marne"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Aube"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Aisne"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Ardennes"
     }
   ],
   "serviceType": [
-    "Maçonnerie",
-    "Gros œuvre", 
-    "Fondations",
-    "Construction",
-    "Rénovation",
-    "Extension"
+    "Peinture intérieure",
+    "Peinture extérieure", 
+    "Enduit décoratif",
+    "Papier peint",
+    "Parquet",
+    "Revêtements"
   ],
   "priceRange": "€€",
-  "openingHours": "Mo-Fr 07:00-18:00",
+  "openingHours": "Mo-Fr 08:00-18:00",
   "sameAs": [
     `${seoConfig.siteUrl}`,
   ]
@@ -166,29 +178,37 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Construction Services",
+  "serviceType": "Painting Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de construction",
+    "name": "Services de peinture et décoration",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Maçonnerie & Gros œuvre",
-          "description": "Fondations, élévation de murs, dalles, chapes, structures"
+          "name": "Peinture Intérieure & Extérieure",
+          "description": "Peinture de murs, plafonds, boiseries, façades avec finitions soignées"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Rénovation & Extension",
-          "description": "Réfection de façades, reprise de maçonnerie, extensions, aménagements"
+          "name": "Enduit & Papier Peint",
+          "description": "Enduits décoratifs, crépis, pose de papier peint pour décoration murale"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Parquet & Revêtements",
+          "description": "Pose et rénovation de parquet, revêtements de sols et murs"
         }
       }
     ]

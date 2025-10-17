@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "MBTP",
-    "legalName": "MBTP SARL",
-    "address": "Secteur d'activité : Île-de-France",
+    "name": "DDM Peinture",
+    "legalName": "DDM Peinture",
+    "address": "Secteur d'activité : Marne (51), Aube (10), Aisne (02), Ardennes (08)",
     "phone": "06 99 37 42 63",
-    "email": "contact@mbtp.fr",
+    "email": "contact@ddmpeinture.fr",
     "siret": "",
-    "ceo": "MBTP"
+    "ceo": "Damien de Magalhaes"
   },
   "hero": {
-    "title": "MBTP - Maçonnerie & Gros Œuvre",
-    "subtitle": "Entreprise spécialisée en maçonnerie et gros œuvre depuis 2016 en Île-de-France. Votre partenaire de confiance dans toute la région parisienne pour tous vos projets de construction et rénovation avec une équipe expérimentée.",
+    "title": "DDM Peinture - Peinture & Revêtements",
+    "subtitle": "Artisan peintre spécialisé en peinture, enduit, papier peint et parquet depuis 2024. Votre partenaire de confiance dans la Marne, l'Aube, l'Aisne et les Ardennes pour tous vos projets de décoration et rénovation.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Maçonnerie & Gros Œuvre",
-        "subtitle": "Spécialistes depuis 2016",
-        "content": "MBTP SARL est spécialisée dans la maçonnerie et le gros œuvre depuis 2016. Nous réalisons tous vos travaux de construction : fondations, élévation de murs, dalles, chapes, et structures. Notre équipe de professionnels garantit des réalisations durables et conformes aux normes en vigueur en Île-de-France.",
+        "title": "Peinture & Décoration",
+        "subtitle": "Artisan depuis 2024",
+        "content": "DDM Peinture est spécialisée dans la peinture intérieure et extérieure, les enduits décoratifs et la pose de papier peint depuis 2024. Nous réalisons tous vos travaux de décoration avec un savoir-faire artisanal et des finitions soignées. Intervention dans la Marne, l'Aube, l'Aisne et les Ardennes.",
         "image": "/maison-1.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Travaux de rénovation",
-        "subtitle": "Expertise complète",
-        "content": "En complément de nos activités de gros œuvre, nous intervenons sur tous vos projets de rénovation : réfection de façades, reprise de maçonnerie, aménagements intérieurs. Notre équipe de 6 à 10 collaborateurs expérimentés vous accompagne dans tous vos projets en Île-de-France.",
+        "title": "Parquet & Revêtements",
+        "subtitle": "Savoir-faire artisanal",
+        "content": "En complément de nos activités de peinture, nous intervenons sur la pose et la rénovation de parquet, ainsi que tous types de revêtements muraux et sols. Notre expertise artisanale garantit des finitions parfaites pour tous vos projets de décoration et rénovation.",
         "image": "/maison-2.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,38 +46,38 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos derniers chantiers en Île-de-France",
+    "subtitle": "Découvrez nos derniers chantiers dans la Marne, l'Aube, l'Aisne et les Ardennes",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Maçonnerie générale",
-        "title": "Maçonnerie générale - Paris (75)"
+        "alt": "Peinture intérieure",
+        "title": "Peinture intérieure - Reims (51)"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Pose de menuiserie",
-        "title": "Gros œuvre - Créteil (94)"
+        "alt": "Enduit décoratif",
+        "title": "Enduit décoratif - Troyes (10)"
       },
       {
         "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=800&fit=crop",
-        "alt": "Gros second œuvre",
-        "title": "Construction neuve - Meaux (77)"
+        "alt": "Pose de papier peint",
+        "title": "Pose de papier peint - Laon (02)"
       },
       {
         "src": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=800&fit=crop",
-        "alt": "Cloisons maçonnerie",
-        "title": "Rénovation - Versailles (78)"
+        "alt": "Pose de parquet",
+        "title": "Pose de parquet - Charleville-Mézières (08)"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Pose de portes",
-        "title": "Façade - Pontoise (95)"
+        "alt": "Peinture extérieure",
+        "title": "Peinture extérieure - Épernay (51)"
       },
       {
         "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=800&fit=crop",
-        "alt": "Rénovation maçonnerie",
-        "title": "Extension - Bobigny (93)"
+        "alt": "Rénovation complète",
+        "title": "Rénovation complète - Sedan (08)"
       }
     ]
   },
@@ -88,16 +88,10 @@
   "team": {
     "members": [
       {
-        "name": "MBTP",
-        "position": "Dirigeant & Maître Maçon",
-        "description": "Fondateur de MBTP SARL en 2016, spécialisé en maçonnerie et gros œuvre. Expert reconnu dans le secteur avec plus de 8 ans d'expérience en Île-de-France.",
+        "name": "Damien de Magalhaes",
+        "position": "Dirigeant & Artisan Peintre",
+        "description": "Fondateur de DDM Peinture en 2024, artisan peintre spécialisé en peinture, enduit, papier peint et parquet. Micro-entrepreneur passionné offrant un service personnalisé dans la Marne, l'Aube, l'Aisne et les Ardennes.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-      },
-      {
-        "name": "Équipe MBTP",
-        "position": "Équipe de Maçons Professionnels",
-        "description": "Une équipe de 6 à 10 collaborateurs expérimentés, spécialisés dans la maçonnerie et le gros œuvre. Intervention sur tous types de chantiers en Île-de-France.",
-        "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
       }
     ]
   },
