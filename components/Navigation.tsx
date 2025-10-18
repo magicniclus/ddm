@@ -81,8 +81,8 @@ export default function Navigation() {
                 />
               </motion.div>
               <div className="flex flex-col">
-                {/* <span className="text-xl font-bold text-gray-900">MBTP</span>
-                <span className="text-xs text-gray-600 font-medium">maçonnerie - gros œuvre</span> */}
+                <span className="text-xl font-bold text-gray-900">DDM Peinture</span>
+                <span className="text-xs text-gray-600 font-medium">peinture - décoration</span>
               </div>
             </Link>
           </motion.div>
@@ -213,10 +213,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    MBTP
+                    DDM Peinture
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    maçonnerie - gros œuvre
+                    peinture - décoration
                   </span>
                 </div>
               </div>

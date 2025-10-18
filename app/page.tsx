@@ -24,7 +24,7 @@ export default function Home() {
       title: "Peinture Intérieure & Extérieure",
       subtitle: "Finitions soignées",
       content: "Peinture de murs, plafonds, boiseries, façades. DDM Peinture réalise tous vos travaux de peinture avec un savoir-faire artisanal et des finitions parfaites depuis 2024.",
-      image: "/macon.png",
+      image: "/one.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b"
     },
@@ -32,7 +32,7 @@ export default function Home() {
       title: "Enduit & Papier Peint",
       subtitle: "Décoration murale",
       content: "Enduits décoratifs, crépis, pose de papier peint. Notre expertise artisanale garantit des résultats durables et esthétiques pour tous vos projets de décoration.",
-      image: "/menuiserie.png",
+      image: "/two.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2"
     },
@@ -40,6 +40,7 @@ export default function Home() {
       title: "Parquet & Revêtements",
       subtitle: "Sols & finitions",
       content: "Pose et rénovation de parquet, revêtements de sols et murs. Service personnalisé d'artisan pour des finitions impeccables dans toute la région.",
+      image: "/three.png",
       gradientFrom: "#4facfe",
       gradientTo: "#00f2fe"
     }

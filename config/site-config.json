@@ -13,17 +13,17 @@
     "subtitle": "Artisan peintre spécialisé en peinture, enduit, papier peint et parquet depuis 2024. Votre partenaire de confiance dans la Marne, l'Aube, l'Aisne et les Ardennes pour tous vos projets de décoration et rénovation.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
-    "backgroundImage": "",
-    "backgroundVideo": "/video.mp4"
+    "backgroundImage": "/one.png",
+    "backgroundVideo": ""
   },
   "about": {
     "sections": [
       {
-        "smallTitle": "Notre expertise",
-        "title": "Peinture & Décoration",
-        "subtitle": "Artisan depuis 2024",
-        "content": "DDM Peinture est spécialisée dans la peinture intérieure et extérieure, les enduits décoratifs et la pose de papier peint depuis 2024. Nous réalisons tous vos travaux de décoration avec un savoir-faire artisanal et des finitions soignées. Intervention dans la Marne, l'Aube, l'Aisne et les Ardennes.",
-        "image": "/maison-1.png",
+        "smallTitle": "Nos prestations",
+        "title": "Peinture, Enduit, Papier Peint & Parquet",
+        "subtitle": "Toutes vos finitions intérieures",
+        "content": "DDM Peinture vous accompagne dans tous vos projets de finitions : peinture intérieure et extérieure, enduits décoratifs, pose de papier peint et parquet. De la préparation des supports aux finitions, nous maîttrisons toutes les techniques pour sublimer vos espaces dans la Marne, l'Aube, l'Aisne et les Ardennes.",
+        "image": "/two.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
         "buttonText": "Voir nos réalisations",
@@ -31,11 +31,11 @@
         "reversed": false
       },
       {
-        "smallTitle": "Nos spécialités",
-        "title": "Parquet & Revêtements",
-        "subtitle": "Savoir-faire artisanal",
-        "content": "En complément de nos activités de peinture, nous intervenons sur la pose et la rénovation de parquet, ainsi que tous types de revêtements muraux et sols. Notre expertise artisanale garantit des finitions parfaites pour tous vos projets de décoration et rénovation.",
-        "image": "/maison-2.png",
+        "smallTitle": "Notre engagement",
+        "title": "Qualité & Finitions Soignées",
+        "subtitle": "L'excellence artisanale",
+        "content": "Chez DDM Peinture, chaque chantier est unique. Nous accordons une attention particulière à la préparation des supports, au choix des matériaux et à la qualité des finitions. Notre savoir-faire artisanal et notre souci du détail garantissent un résultat durable et esthétique qui dépassera vos attentes.",
+        "image": "/three.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
         "buttonText": "Contactez-nous",
